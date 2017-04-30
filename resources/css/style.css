@@ -205,7 +205,30 @@ li a{
 
 
 /* Footer*/
+footer {
+  background-color: azure;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 960px;
+  margin: 5em auto 0 auto;
+}
+footer img {
+  height: 1.5em;
+  padding:4em 1em 4em 4em;
+}
+@media only screen and (max-width:470px) {
+  footer {
+    justify-content: center;
+  }
+  footer img {
+    padding:4em 0;
+  }
+  footer p{
+    display: none;
+  }
 
+}
 
 /*
 @media only screen and (max-width:1024px){
