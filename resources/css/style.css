@@ -162,12 +162,47 @@ li a{
  }
  .offerWrapper {
    margin-bottom: 1.54em;
+   height: 6em;
+ }
+ .offTitle p {
+   font-size: 0.77em;
  }
  #paper {
    max-width: 3em;
  }
 }
 /* Info */
+.info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.philosophy, .appointments {
+  width:35%;
+}
+.philosophy {
+  margin-right: 5%;
+}
+.header {
+  width:10em;
+  color: white;
+  background-color: cadetblue;
+  padding: 0.5em 1.25em;
+  margin-bottom: 1em;
+}
+@media only screen and (max-width:470px) {
+  .philosophy, .appointments {
+    width:100%;
+    margin-right: 0;
+    margin-bottom: 4em;
+  }
+  .header {
+    width: 100%;
+    text-align: center;
+  }
+
+}
+
 
 /* Footer*/
 
