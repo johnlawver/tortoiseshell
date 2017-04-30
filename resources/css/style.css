@@ -1,0 +1,143 @@
+/* Site Wide */
+body {
+  font-size:18px;
+  line-height: 1.4em;
+  font-family: helvetica;
+}
+.contained {
+  max-width: 960px;
+  margin: 0 auto;
+}
+/* Header */
+header {
+  height: 30rem;
+  background-image: url('../images/splash.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width:1024px) {
+  header {
+    margin-top: 3em;
+    height:19rem;
+  }
+}
+@media only screen and (max-width:470px) {
+  header {
+    margin-top: 3em;
+    height:14rem;
+    background-position: 20%;
+  }
+}
+/* Navbar */
+.navbar {
+  color:white;
+  position: relative;
+  top:1rem;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.navbar img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+nav ul{
+  display: flex;
+  padding-right: 1em;
+}
+li{
+  padding: 1rem;
+}
+li a{
+  color: white;
+  text-decoration: none;
+}
+#smallNav {
+  display: none;
+}
+@media only screen and (max-width:1024px){
+  .navbar {
+    position: fixed;
+    top:0;
+    width: 100%;
+  }
+
+}
+@media only screen and (max-width:470px){
+  .navbar {
+    position: fixed;
+    top:0;
+    width: 100%;
+  }
+  #largeNav, .logo p {
+    display: none;
+  }
+  #smallNav {
+    display: block;
+  }
+}
+/* TagLine */
+.tagLineContainer {
+  display: flex;
+  justify-content: flex-end;
+}
+.tagLine {
+  position: relative;
+  top:10rem;
+  right: -2rem;
+  background-color: white;
+
+}
+.tagline p {
+  padding: 1.5rem 5rem;
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1.2;
+
+}
+@media only screen and (max-width:1024px){
+  .tagLine {
+    top:5rem;
+    right:2rem;
+  }
+  .tagline p {
+    padding: 0.75rem 4rem;
+    font-size:
+
+  }
+}
+@media only screen and (max-width:470px){
+  .tagLine {
+    text-align: center;
+    top:9rem;
+    left:0;
+    width: 100%;
+  }
+  .tagline p {
+    padding: 1rem 0;
+    font-size:1rem;
+
+  }
+}
+/* Services */
+
+/* Info */
+
+/* Footer*/
+
+
+/*
+@media only screen and (max-width:1024px){
+
+}
+@media only screen and (max-width:470px){
+
+}
+*/
